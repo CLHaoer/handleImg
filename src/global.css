@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  --el-header-bg-color: #fff;
+  --el-header-border-color: #ebeef5;
+}
+
+/* nprogress */
+#nprogress .bar {
+  background: var(--el-color-primary) !important;
+}
+
+#nprogress .spinner-icon {
+  border-top-color: var(--el-color-primary) !important;
+  border-left-color: var(--el-color-primary) !important;
+}
+
+#nprogress .peg {
+  box-shadow:
+    0 0 10px var(--el-color-primary),
+    0 0 5px var(--el-color-primary) !important;
+}
